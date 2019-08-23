@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
 	$q = " insert into json (username,password) values ('$username','$password') ";
 
 	$query = mysqli_query($con,$q);
-	header('location:https://wilffrando.github.io/test/');
+	header('location:https:https://wilffrando.github.io/heres/');
 }
 
 
